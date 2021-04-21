@@ -1,6 +1,6 @@
 {
-  "name": "salecto2/magento2-auto-cancel",
-  "description": "Catalog KnockOut Js Example Module",
+  "name": "salecto1/magento2-auto-cancel",
+  "description": "Auto Cancel Orders",
   "type": "magento2-module",
   "version": "1.0.0",
   "license": [
@@ -17,7 +17,7 @@
       "registration.php"
     ],
     "psr-4": {
-      "Salecto\\CancelOrders\\": ""
+      "Salecto\\AutoCancel\\": ""
     }
   }
 }

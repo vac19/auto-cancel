@@ -1,28 +1,28 @@
-# Salecto_CancelOrders
+# Salecto_AutoCancel
 
 This module is ment to build for canceling pending orders by provided date, along with cron job.
 
+## Preview will be added
+
+![timer-in-categoryPage](/readme-images/Timer-at-categoryPage.png "timer-in-categoryPage")
+
 ## Settings
 
-- Option `Admin >> Store >> Configuration >> Salecto >> Cancel Orders`
-
-## Known issues
-
-- ** Orders greater or equals to provided date will mark as canceled. **
+- Option `Stores/Configuration/Salecto/Auto Cancel Orders`
 
 ## Developer informations
 - vashishtha chauhan / Salecto
 
 ### Install module
-0. Run `composer config repositories.reponame vcs https://github.com/vac19/auto-cancel`
-1. Run `composer require salecto2/magento2-auto-cancel`
+0. RUN `composer config repositories.reponame vcs https://github.com/vac19/auto-cancel`
+1. Run `composer require salecto1/magento2-auto-cancel`
 2. Run `php bin/magento setup:upgrade`
 3. Run `php bin/magento setup:di:compile`
 4. Run `php bin/magento s:s:d da_DK en_US`
 5. Run `php bin/magento c:c`
 
 ### Uninstall module
-1. Run `composer remove salecto2/magento2-auto-cancel`
+1. Run `composer remove salecto1/magento2-auto-cancel`
 2. Run `php bin/magento setup:di:compile`
 3. Run `php bin/magento s:s:d da_DK en_US`
 4. Run `php bin/magento c:c`
